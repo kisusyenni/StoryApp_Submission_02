@@ -1,0 +1,92 @@
+1. AddStoryViewModel.kt
+a) Ketika mengunggah cerita berhasil
+- Memastikan mengembalikan true bila ApiResponse.Success
+- Memastikan hasil data tidak null
+- Memastikan data yang dikembalikan sesuai yang diharapkan
+- Memastikan memastikan data tidak ApiResponse.Error
+
+2. LoginViewModelTest.kt
+a) Ketika login berhasil
+- Memastikan hasil respon login tidak null
+- Memastikan mengembalikan ApiResponse.Success
+- Memastikan data yang dikembalikan sesuai yang diharapkan
+
+b) Ketika login gagal
+- Memastikan hasil respon login tidak null
+- Memastikan mengembalikan ApiResponse.Error
+- Memastikan nilai message yang dikembalikan sesuai yang diharapkan
+
+3. HomeViewModelTest.kt
+a) Ketika pengambilan cerita berhasil
+- Memastikan hasil data tidak null
+- Memastikan jumlah data yang dikembalikan sesuai yang diharapkan
+
+4. MapsViewModelTest.kt
+a) Ketika pengambilan cerita berdasarkan lokasi berhasil
+- Memastikan mengembalikan true bila ApiResponse.Success
+- Memastikan hasil data tidak null
+- Memastikan data yang dikembalikan sesuai yang diharapkan
+- Memastikan memastikan data tidak ApiResponse.Error
+
+5. RegisterViewModelTest.kt
+a) Ketika registrasi berhasil
+- Memastikan hasil respon registrasi tidak null
+- Memastikan mengembalikan ApiResponse.Success
+- Memastikan data yang dikembalikan sesuai yang diharapkan
+
+b) Ketika registrasi gagal
+- Memastikan hasil respon registrasi tidak null
+- Memastikan mengembalikan ApiResponse.Error
+- Memastikan nilai message yang dikembalikan sesuai yang diharapkan
+
+6. DatastoreViewModelTest.kt
+a) Ketika penyimpanan dan pengambilan sesi berhasil
+- Memastikan data sesi tersimpan tidak null
+- Memastikan data sesi tersimpan sesuai dengan yang diharapkan
+- Memastikan data sesi yang diambil tidak null
+- Memastikan data sesi yang diambil sesuai dengan yang diharapkan
+
+b) Ketika penyimpanan sesi berhasil dan mengembalikan data yang benar
+- Memastikan data sesi yang tersimpan tidak null
+- Memastikan data sesi yang tersimpan sesuai dengan yang diharapkan
+
+c) Ketika menghapus sesi berhasil dan nilai data store kosong
+- Memastikan data sesi sebelum dihapus tersimpan sesuai dengan yang diharapkan
+- Memastikan data sesi sebelum dihapus tidak kosong
+- Memastikan data sesi yang telah dihapus sesuai dengan yang diharapkan
+- Memastikan data sesi yang telah dihapus tidak sama dengan data sesi yang tidak kosong
+
+d) Ketika penyimpanan dan pengambilan tema berhasil
+- Memastikan data tema yang disimpan tidak kosong
+- Memastikan data tema yang disimpan sesuai dengan yang diharapkan
+- Memastikan data tema yang diambil tidak kosong
+- Memastikan data tema yang diambil sesuai dengan yang diharapkan
+
+e) Ketika penyimpanan tema berhasil dan mengembalikan nilai yang benar
+- Memastikan data yang disimpan tidak kosong
+- Memastikan data yang disimpan sesuai dengan yang diharapkan
+
+7. StoryAppRepositoryTest.kt
+a) Ketika login berhasil
+- Memastikan hasil respon login tidak null
+- Memastikan mengembalikan ApiResponse.Success
+- Memastikan data yang dikembalikan sesuai dengan yang diharapkan
+
+b) Ketika registrasi berhasil
+- Memastikan hasil respon registrasi tidak null
+- Memastikan mengembalikan ApiResponse.Success
+- Memastikan data yang dikembalikan sesuai dengan yang diharapkan
+
+c) Ketika pengambilan cerita dengan paging berhasil
+- Memastikan hasil data tidak null
+- Memastikan jumlah data yang dikembalikan sesuai yang diharapkan
+
+d) Ketika pengambilan cerita berdasarkan lokasi berhasil
+- Memastikan mengembalikan true bila ApiResponse.Success
+- Memastikan hasil data tidak null
+- Memastikan jumlah data yang dikembalikan sesuai yang diharapkan
+- Memastikan memastikan data tidak ApiResponse.Error
+
+e) Ketika mengunggah cerita berhasil
+- Memastikan respon tidak null
+- Memastikan data yang dikembalikan sesuai yang diharapkan

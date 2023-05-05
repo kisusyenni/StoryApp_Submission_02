@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error">Ada sesuatu yang bermasalah!</string>
+    <string name="login">Masuk</string>
+    <string name="login_error">Silahkan masukkan data lengkap</string>
+    <string name="login_success">Anda berhasil masuk!</string>
+    <string name="register">Daftar</string>
+    <string name="register_error">Silahkan masukkan data lengkap</string>
+    <string name="logout_title">Keluar Aplikasi</string>
+    <string name="logout">Keluar</string>
+    <string name="logout_success">Akun Anda telah keluar!</string>
+    <string name="welcome">Selamat Datang di Story App!</string>
+    <string name="welcome_desc">Jelajahi hal-hal yang terjadi di dunia saat ini.</string>
+    <string name="email_ed">Masukkan alamat email</string>
+    <string name="name_ed">Masukkan nama</string>
+    <string name="password_ed">Masukkan kata sandi</string>
+    <string name="name_error">Minimal terdiri dari 3 karakter</string>
+    <string name="email_error">Email tidak valid</string>
+    <string name="password_error">Minimal terderi dari 6 karakter</string>
+    <string name="add_story">Tambah Cerita Baru</string>
+    <string name="story_photo">Gambar Cerita</string>
+    <string name="no_permission">Anda tidak memiliki izin untuk mengakses fitur.</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="upload_story">Unggah Cerita</string>
+    <string name="description_ed">Tambah deskripsi gambar…</string>
+    <string name="image_preview">Pratinjau Gambar</string>
+    <string name="empty_data_story">Gambar dan deskripsi tidak boleh kosong</string>
+    <string name="empty_image">Unggah gambar Anda</string>
+    <string name="empty_description">Tambah deskripsi gambar Anda</string>
+    <string name="story">Cerita</string>
+    <string name="maps">Peta</string>
+    <string name="settings">Pengaturan</string>
+    <string name="retry">Coba ulang</string>
+    <string name="upload_story_success">Cerita berhasil diunggah</string>
+    <string name="dark_mode">Mode Gelap</string>
+</resources>
